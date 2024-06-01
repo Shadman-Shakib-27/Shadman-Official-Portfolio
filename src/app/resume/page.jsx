@@ -190,7 +190,7 @@ const ResumePage = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] xl:border xl:border-accent p-8 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-pink-50/10 h-[184px] xl:border xl:border-accent p-8 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span className="text-accent">{item.duration}</span>
                           <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
@@ -219,7 +219,7 @@ const ResumePage = () => {
                       return (
                         <li
                           key={index}
-                          className="bg-[#232329] h-[184px] xl:border xl:border-accent p-6 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-pink-50/10 h-[184px] xl:border xl:border-accent p-6 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
                         >
                           <span>
                             <span className="text-accent">Passing Year: </span>
@@ -257,7 +257,7 @@ const ResumePage = () => {
                       <li key={index}>
                         <TooltipProvider delayDuration={100}>
                           <Tooltip>
-                            <TooltipTrigger className="w-full h-[150px] bg-[#232329] rounded-xl flex justify-center items-center group">
+                            <TooltipTrigger className="w-full h-[150px] bg-pink-50/10 rounded-xl flex justify-center items-center group">
                               <div className="text-6xl group-hover:text-accent transition-all duration-300">
                                 {skill.icon}
                               </div>
