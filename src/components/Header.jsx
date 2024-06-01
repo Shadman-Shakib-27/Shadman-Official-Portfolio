@@ -19,7 +19,7 @@ const Header = () => {
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
           <Link href="/contact">
-            <Button className="bg-accent font-bold  hover:text-black">
+            <Button className="bg-accent font-bold hover:text-primary">
               Hire Me
             </Button>
           </Link>

@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
 const socials = [
-  { icon: <FaGithub />, path: "" },
+  { icon: <FaGithub />, path: "https://github.com/Shadman-Shakib-27" },
   { icon: <FaLinkedin />, path: "" },
   { icon: <FaXTwitter />, path: "" },
   { icon: <FaFacebook />, path: "" },

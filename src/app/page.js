@@ -13,11 +13,11 @@ const HomePage = () => {
           {/* Text Start */}
           <div className="text-center order-2 xl:order-none xl:text-left">
             <span>Frontend Developer</span>
-            <h1 className="h1">
+            <h1 className="xl:h1 h2 mb-5 mt-3">
               Hello I'm <br />
               <span className="text-accent">Shadman Shakib</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80">
+            <p className="max-w-[500px] xl:max-w-[57ch] mb-5 text-white/80">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
               ipsum dolor ex corporis. Minima perferendis non consequatur magni
               beatae ab possimus veniam, voluptate incidunt facilis.
