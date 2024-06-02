@@ -23,10 +23,7 @@ const HomePage = () => {
               modern JavaScript frameworks and libraries. My expertise lies in
               leveraging Next.js, a powerful React framework, to create seamless
               user experiences with server-side rendering, static site
-              generation, and API routes. I focus on writing clean, maintainable
-              code while implementing best practices in web development,
-              including state management, component-based architecture, and
-              performance optimization.
+              generation, and API routes.
             </p>
             {/* Button & Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
