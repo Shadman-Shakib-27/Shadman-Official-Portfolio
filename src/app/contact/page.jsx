@@ -54,8 +54,9 @@ const ContactPage = () => {
                 Let's Work Together
               </h3>
               <p className="text-white/60 text-center mx-auto max-w-[40ch]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Blanditiis, fugit!
+                I'd love to hear from you! Whether you have a question, want to
+                collaborate, or simply want to say hello, feel free to reach out
+                using the form below.
               </p>
               {/* Input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">

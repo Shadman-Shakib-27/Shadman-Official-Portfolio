@@ -20,10 +20,8 @@ const HomePage = () => {
             <p className="max-w-[500px] xl:max-w-[57ch] mb-5 text-white/80">
               As a Frontend and Next.js developer, I specialize in building
               dynamic, responsive, and high-performance web applications using
-              modern JavaScript frameworks and libraries. My expertise lies in
-              leveraging Next.js, a powerful React framework, to create seamless
-              user experiences with server-side rendering, static site
-              generation, and API routes.
+              modern JavaScript frameworks and libraries.I also know about
+              backend (MERN) stack.
             </p>
             {/* Button & Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
