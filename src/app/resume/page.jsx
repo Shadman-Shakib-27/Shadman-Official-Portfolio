@@ -85,19 +85,22 @@ const education = {
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, amet?",
   items: [
     {
-      institution: "Govt. Fulbaria Model Pilot High School",
-      degree: "S.S.C",
-      duration: "2016",
+      institution: "Islamic University, Kushtia-7003",
+      degree: "B.Sc.(Engg.) in ICT",
+      group: "Engineering",
+      duration: "2020 - Present",
     },
     {
       institution: "Agricultural University College",
-      degree: "H.S.C",
+      degree: "Higher Secondary Certificate",
+      group: "Science",
       duration: "2018",
     },
     {
-      institution: "Islamic University, Kushtia-7003",
-      degree: "B.Sc (Engg.) in ICT",
-      duration: "2020 - Present",
+      institution: "Govt. Fulbaria Model Pilot High School",
+      degree: "Higher Secondary Certificate",
+      group: "Science",
+      duration: "2016",
     },
   ],
 };
@@ -214,28 +217,29 @@ const ResumePage = () => {
                   {education.description}
                 </p>
                 <ScrollArea className="h-[400px]">
-                  <ul className="grid grid-cols-1 lg:grid-cols-2 gap-[30px]">
+                  <ul className="grid w-full grid-cols-1 gap-[30px]">
                     {education.items.map((item, index) => {
                       return (
                         <li
                           key={index}
-                          className="bg-pink-50/10 h-[184px] xl:border xl:border-accent p-6 rounded-xl flex flex-col justify-center items-center lg:items-start gap-1"
+                          className="bg-pink-50/10 h-[220px] lg:h-[184px] xl:border xl:border-accent p-6 rounded-xl flex flex-col justify-center items-start lg:items-start gap-1"
                         >
-                          <span>
-                            <span className="text-accent">Passing Year: </span>
-                            {item.duration}
-                          </span>
-                          <h3 className="text-xl max-w-[260px] min-h-[60px] text-center lg:text-left">
+                          <h3 className="text-left">
                             <span className="text-accent">Degree: </span>
                             {item.degree}
                           </h3>
-                          <div className="flex items-center gap-3">
-                            {/* <span className="w-[6px] h-[6px] rounded-full xl:hidden bg-accent"></span> */}
-                            <p className="text-white/60">
-                              <span className="text-accent">Institution: </span>
-                              {item.institution}
-                            </p>
-                          </div>
+                          <p className="text-left text-white/60">
+                            <span className="text-accent">Faculty: </span>
+                            {item.group}
+                          </p>
+                          <p className="text-left text-white/60">
+                            <span className="text-accent">Institution: </span>
+                            {item.institution}
+                          </p>
+                          <span className="text-left">
+                            <span className="text-accent">Passing Year: </span>
+                            {item.duration}
+                          </span>
                         </li>
                       );
                     })}
@@ -289,8 +293,10 @@ const ResumePage = () => {
                         className="flex items-center justify-center xl:justify-start gap-4"
                         key={index}
                       >
-                        <span className="text-white/60">{item.fieldName}:</span>
-                        <span className="text-xl">{item.fieldValue}</span>
+                        <span className="font-bold text-white/60">
+                          {item.fieldName}:
+                        </span>
+                        <span className="text-[14px]">{item.fieldValue}</span>
                       </li>
                     );
                   })}

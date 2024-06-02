@@ -18,9 +18,15 @@ const HomePage = () => {
               <span className="text-accent">Shadman Shakib</span>
             </h1>
             <p className="max-w-[500px] xl:max-w-[57ch] mb-5 text-white/80">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-              ipsum dolor ex corporis. Minima perferendis non consequatur magni
-              beatae ab possimus veniam, voluptate incidunt facilis.
+              As a Frontend and Next.js developer, I specialize in building
+              dynamic, responsive, and high-performance web applications using
+              modern JavaScript frameworks and libraries. My expertise lies in
+              leveraging Next.js, a powerful React framework, to create seamless
+              user experiences with server-side rendering, static site
+              generation, and API routes. I focus on writing clean, maintainable
+              code while implementing best practices in web development,
+              including state management, component-based architecture, and
+              performance optimization.
             </p>
             {/* Button & Socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">

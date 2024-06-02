@@ -7,27 +7,27 @@ import { BsArrowDownRight } from "react-icons/bs";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Frontend Development",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing eliemporibus.",
+      "Frontend development focuses on creating user interfaces, enhancing user experiences, ensuring responsiveness, optimizing performance, and implementing modern web technologies.",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Responsive UI",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing eliemporibus.",
+      "Responsive UI design ensures websites adapt to various screen sizes, providing an optimal viewing experience on all devices.",
   },
   {
     num: "03",
-    title: "SEO",
+    title: "UI/UX Design",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing eliemporibus.",
+      "UI/UX Design involves crafting visually appealing interfaces, improving usability, enhancing user satisfaction, and ensuring intuitive, seamless user experiences.",
   },
   {
     num: "04",
-    title: "Responsive UI",
+    title: "Backend Integration",
     description:
-      "Lorem ipsum dolor, sit amet consectetur adipisicing eliemporibus.",
+      "Backend integration with frontend ensures seamless data exchange, enabling dynamic functionality and enhancing user experience through robust API connections.",
   },
 ];
 
@@ -55,12 +55,12 @@ const ServicePage = () => {
                   </div>
                   <Link
                     className="w-[70px] h-[70px] rounded-full bg-white group-hover:bg-accent transition-all duration-500 flex justify-center items-center hover:-rotate-45"
-                    href="/works"
+                    href="/services"
                   >
                     <BsArrowDownRight className="text-primary text-3xl" />
                   </Link>
                 </div>
-                <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
+                <h2 className="xl:text-[42px] text-2xl font-bold leading-none text-white group-hover:text-accent transition-all duration-500">
                   {service.title}
                 </h2>
                 <p className="text-white/60">{service.description}</p>
