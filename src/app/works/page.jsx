@@ -9,6 +9,9 @@ import { BsBrowserChrome, BsGithub, BsServer } from "react-icons/bs";
 import Mobile_Mania from "../../assets/works/Mobile_Mania.png";
 import Disaster_Relief from "../../assets/works/Disaster_Relief.png";
 import Convention_Center from "../../assets/works/Convention_Center.png";
+import Expanse_Calc from "../../assets/works/Shadman_Expanses.png";
+import Red_Onion from "../../assets/works/Red_Onion.png";
+import Phone_Hunter from "../../assets/works/Phone_Hunter.png";
 
 import {
   Tooltip,
@@ -127,6 +130,90 @@ const projects = [
     github_client: "https://github.com/Shadman-Shakib-27/convention-center",
     github_server: "",
   },
+  {
+    num: "04",
+    category: "Authentication",
+    title: "Firebase",
+    description:
+      "The Red Onion website by Shadman is an online platform showcasing a restaurant menu. The site features a variety of food categories, including breakfast, lunch, and dinner options, along with detailed descriptions and images of each dish. Users can browse through different meal options, view prices, and explore the diverse offerings. The interface is user-friendly and visually appealing, aimed at providing an easy and enjoyable browsing experience for potential customers.",
+    stack: [
+      {
+        name: "HTML5",
+      },
+      {
+        name: "Tailwind CSS",
+      },
+      {
+        name: "Javascript",
+      },
+      {
+        name: "React",
+      },
+      {
+        name: "Firebase",
+      },
+      {
+        name: "React-Firebase-Hooks",
+      },
+    ],
+    image: "/src/assets/works/thumb3.png",
+    live: "https://red-onion-shadman.vercel.app/",
+    github_client: "https://github.com/Shadman-Shakib-27/red-onion-by-shadman",
+    github_server: "",
+  },
+  {
+    num: "05",
+    category: "Expanse Calculator",
+    title: "Frontend",
+    description:
+      "Shadman's Expanse Calculator is a web application designed to help users manage their monthly income and expenses. Users can input their income and various expenses such as food, rent, and clothing. The app then calculates the total expenses, balance, savings percentage, savings amount, and remaining balance. It provides a clear and straightforward interface for effective personal financial management.",
+    stack: [
+      {
+        name: "HTML5",
+      },
+      {
+        name: "Tailwind",
+      },
+      {
+        name: "Javascript",
+      },
+      {
+        name: "FontAwesome",
+      },
+    ],
+    image: "/src/assets/works/thumb3.png",
+    live: "https://expanse-calculator-shadman.vercel.app/",
+    github_client: "https://github.com/Shadman-Shakib-27/Shadman-Expenses",
+    github_server: "",
+  },
+  {
+    num: "06",
+    category: "Phone Hunter Shop",
+    title: "API Integration",
+    description:
+      "Shadman's Phone Store website is an online platform for purchasing mobile phones. The site features a wide range of phone models from various brands, each listed with detailed specifications, prices, and high-quality images. The interface is designed for easy navigation, allowing users to search for specific phones, compare features, and make informed purchasing decisions. The site aims to provide a seamless and efficient shopping experience for customers looking to buy new smartphones.",
+    stack: [
+      {
+        name: "HTML5",
+      },
+      {
+        name: "Tailwind",
+      },
+      {
+        name: "Javascript",
+      },
+      {
+        name: "FontAwesome",
+      },
+      {
+        name: "API Integration",
+      },
+    ],
+    image: "/src/assets/works/thumb3.png",
+    live: "https://shadman-phone-store.netlify.app/",
+    github_client: "https://github.com/Shadman-Shakib-27/phone-hunter",
+    github_server: "",
+  },
 ];
 
 const WorksPage = () => {
@@ -168,7 +255,7 @@ const WorksPage = () => {
               {/* Project Description  */}
               <p>{project.description}</p>
               {/* Stacks */}
-              <h2 className="h3">Technology Used:</h2>
+              <h2 className="h3 mt-4">Technology Used:</h2>
               <div className="border border-white/20"></div>
               <ul className="grid grid-cols-2 xl:grid-cols-3 gap-4">
                 {project.stack.map((item, index) => {
@@ -263,6 +350,48 @@ const WorksPage = () => {
                   <div className="relative w-full h-full">
                     <Image
                       src={Convention_Center}
+                      alt="Project Image"
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="w-full">
+                <div className="xl:h-[460px] relative group flex justify-center rounded-md items-center">
+                  {/* Overlay */}
+                  {/* <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div> */}
+                  {/* Image */}
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={Red_Onion}
+                      alt="Project Image"
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="w-full">
+                <div className="xl:h-[460px] relative group flex justify-center rounded-md items-center">
+                  {/* Overlay */}
+                  {/* <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div> */}
+                  {/* Image */}
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={Expanse_Calc}
+                      alt="Project Image"
+                      className="object-cover"
+                    />
+                  </div>
+                </div>
+              </SwiperSlide>
+              <SwiperSlide className="w-full">
+                <div className="xl:h-[460px] relative group flex justify-center rounded-md items-center">
+                  {/* Overlay */}
+                  {/* <div className="absolute top-0 bottom-0 w-full h-full bg-black/10 z-10"></div> */}
+                  {/* Image */}
+                  <div className="relative w-full h-full">
+                    <Image
+                      src={Phone_Hunter}
                       alt="Project Image"
                       className="object-cover"
                     />
