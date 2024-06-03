@@ -178,7 +178,7 @@ const projects = [
         name: "Javascript",
       },
       {
-        name: "Font Awesome",
+        name: "FontAwesome",
       },
     ],
     image: "/src/assets/works/thumb3.png",

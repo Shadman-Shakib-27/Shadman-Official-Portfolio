@@ -7,9 +7,27 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaBootstrap,
+  FaNpm,
 } from "react-icons/fa";
+import { TbBrandRedux } from "react-icons/tb";
+import { IoLogoFirebase } from "react-icons/io5";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiVite,
+  SiTypescript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiReacthookform,
+  SiReactrouter,
+  SiShadcnui,
+  SiMui,
+  SiDaisyui,
+  SiExpress,
+  SiMongodb,
+  SiMongoose,
+  SiVercel,
+} from "react-icons/si";
 
 // About Data
 const abouts = {
@@ -120,28 +138,85 @@ const skills = {
       name: "Css3",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "Tailwindcss",
-    },
-    {
       icon: <FaJs />,
       name: "Javascript",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "Typescript",
+    },
+    {
+      icon: <SiVite />,
+      name: "Vite",
     },
     {
       icon: <FaReact />,
       name: "React Js",
     },
     {
-      icon: <FaNodeJs />,
-      name: "Node Js",
+      icon: <TbBrandRedux />,
+      name: "Redux",
     },
     {
       icon: <SiNextdotjs />,
       name: "Next Js.",
     },
     {
+      icon: <SiReacthookform />,
+      name: "React Hook Form",
+    },
+    {
+      icon: <SiReactrouter />,
+      name: "React Router",
+    },
+    {
+      icon: <SiShadcnui />,
+      name: "Shadcn UI",
+    },
+    {
+      icon: <SiMui />,
+      name: "Material UI",
+    },
+    {
+      icon: <SiDaisyui />,
+      name: "Daisy UI",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "Tailwindcss",
+    },
+    {
+      icon: <FaBootstrap />,
+      name: "Bootstrap",
+    },
+    {
+      icon: <IoLogoFirebase />,
+      name: "Firebase",
+    },
+    {
       icon: <FaFigma />,
       name: "Figma",
+    },
+    {
+      icon: <FaNpm />,
+      name: "NPM",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "Node Js",
+    },
+    {
+      icon: <SiExpress />,
+      name: "Express Js",
+    },
+
+    {
+      icon: <SiMongodb />,
+      name: "MongoDB",
+    },
+    {
+      icon: <SiMongoose />,
+      name: "Mongoose",
     },
   ],
 };
