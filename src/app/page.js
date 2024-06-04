@@ -10,7 +10,7 @@ const HomePage = () => {
     <section className="h-full">
       <div className="mx-auto container">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-          {/* Text Start */}
+          {/* Text Part Start */}
           <div className="text-center order-2 xl:order-none xl:text-left">
             <span>Frontend Developer</span>
             <h1 className="xl:h1 h2 mb-5 mt-3">
